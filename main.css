@@ -17,6 +17,9 @@
     top: 40%;
     left: 3%;
 }
+/* .maintext h1{
+    color: #645CAA;
+} */
 .maintext a{
     color: #ffffff;
     background-color: #645CAA;
@@ -95,4 +98,14 @@ button:hover{
     margin: auto;
     margin-top: 20px;
     width: 40%;
+}
+.about{
+    width: 50%;
+    margin: auto;
+}
+.about h1{
+    text-align: center;
+}
+.about p{
+    font-size: 20px;
 }
