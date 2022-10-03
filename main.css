@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel{
+    height: 400px;
+    position: relative;
+}
+.carousel >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.maintext{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+.maintext a{
+    color: #ffffff;
+    background-color: #645CAA;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+.form{
+    width: 600px;
+    margin: auto;
+    padding: 20px 20px;
+}
+.form >h2{
+    padding: 10px;
+    text-align: center;
+}
+input,button,select{
+    display: block;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+input,select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+button{
+    background-color: #645CAA;
+    border: white;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+}
+button:hover{
+    background-color: #EBC7E8;
+}
+.navigation{
+    margin: 40px;
+    text-align: right;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: #ffffff;
+}
+.navigation img{
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.main{
+    margin-top: 1%;
+    text-align: center;
+}
+.main p{
+    margin: 1%;
+}
+.news{
+    margin: 1%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+.news h2{
+    font-weight: bold;
+    margin: auto;
+    width: 50%;
+}
+.news p{
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+}
