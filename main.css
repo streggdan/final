@@ -60,13 +60,16 @@ button:hover{
 }
 .navigation{
     margin: 40px;
-    text-align: right;
+    text-align: right;    
 }
 .navigation a{
     text-decoration: none;
     font-size: 20px;
     margin: 10px;
     color: #645CAA;
+}
+.navigation a:hover{
+    color: #D36B00;
 }
 .navigation img{
     border-radius: 50%;
@@ -108,4 +111,19 @@ button:hover{
 }
 .about p{
     font-size: 20px;
+}
+.members{
+    width: 70%;
+    margin: auto;
+}
+.members h2{
+    text-align: center;
+}
+.members ul{
+    list-style: none;
+    font-size: 20px;
+}
+.contact{
+    width: 30%;
+    margin: auto;
 }
