@@ -18,7 +18,7 @@
     left: 3%;
 }
 /* .maintext h1{
-    color: #645CAA;
+    color: #040F16;
 } */
 .maintext a{
     color: #ffffff;
@@ -28,6 +28,19 @@
     border-radius: 20px;
     margin: 5px;
     display: inline-block;
+}
+.maintext a:hover{
+    background-color: #F374AE;
+}
+.section{
+    background-color: #cdd1c4;
+}
+.booktext{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
 .form{
     width: 600px;
@@ -52,15 +65,22 @@ button{
     background-color: #645CAA;
     border: white;
     padding: 10px;
-    width: 30%;
+    width: 25%;
     margin: auto;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
 }
 button:hover{
-    background-color: #EBC7E8;
+    background-color: #F374AE;
 }
 .navigation{
-    margin: 40px;
-    text-align: right;    
+    /* margin: 40px; */
+    padding: 40px;
+    text-align: right;
+    border-bottom: #D36B00; 
+    border-style: solid;
+    /* border-color: red; */
 }
 .navigation a{
     text-decoration: none;
@@ -72,11 +92,13 @@ button:hover{
     color: #D36B00;
 }
 .navigation img{
-    border-radius: 50%;
+    /* border-radius: 50%; */
     display: block;
-    height: 50px;
+    height: 100px;
     margin: 0px;
     padding: 0px;
+    border-style: solid;
+    border-color: red;
     
 }
 .main{
@@ -112,6 +134,10 @@ button:hover{
 .about p{
     font-size: 20px;
 }
+.mem{
+    background-color: #cdd1c4;
+    padding-top: 1%;
+}
 .members{
     width: 70%;
     margin: auto;
@@ -126,4 +152,25 @@ button:hover{
 .contact{
     width: 30%;
     margin: auto;
+}
+nav{
+        /* margin: 40px; */
+        padding: 40px;
+        text-align: right;
+        border-bottom: #D36B00; 
+        border-style: solid;
+        /* border-color: red; */
+}
+nav a{
+    text-decoration: none;
+}
+nav img{
+        /* border-radius: 50%; */
+        display: block;
+        height: 100px;
+        width: 150px;
+        margin: -40px;
+        padding: -10px;
+        /* border-style: solid; */
+        /* border-color: red; */
 }
