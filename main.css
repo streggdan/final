@@ -216,3 +216,8 @@ button:hover{
     color: #D36B00;
     font-size: 28px;
 }
+.foot{
+    text-align: center;
+    background-color: #ffffff;
+    font-weight: 400;
+}
