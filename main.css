@@ -38,7 +38,6 @@ li a{
 nav a:hover{
     color: #D36B00;
     font-weight: 600;
-    /* font-size: 20px; */
 }
 hr{
     color: #D36B00;
@@ -55,7 +54,7 @@ hr{
 .maintext{
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 47%;
     right: 3%;
     color: #040F16;
 }
@@ -152,6 +151,7 @@ button:hover{
 .mem{
     background-color: #cdd1c4;
     padding-top: 1%;
+    padding-bottom: 1%;
 }
 .members{
     width: 70%;
@@ -172,6 +172,9 @@ button:hover{
     width: 60%;
     margin: auto;
     padding: 20px;
+}
+.sub h2{
+    text-align: center;
 }
 .contact{
     width: 30%;
@@ -197,4 +200,19 @@ button:hover{
 .segment{
     background-color: #cdd1c4;
     padding-bottom: 5px;
+}
+.error{
+    width: 600px;
+    padding-top: 50px;
+    margin: auto;
+}
+.error h1{
+    text-align: center;
+}
+.error img{
+    height: 400px;
+}
+.error a:hover{
+    color: #D36B00;
+    font-size: 28px;
 }
